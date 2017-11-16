@@ -2,6 +2,7 @@
 let g:airline#extensions#ale#enabled = 1
 
 " Linting should be enabled by language layers that want it.
+let g:ale_linters_explicit = 1
 let g:ale_linters = {}
 
 " By default, we'll lint when the file is saved.
